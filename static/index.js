@@ -994,7 +994,7 @@ window.onload = function () {
 
       <div style="position: absolute; top: 10px; right: 10px; font-size: xx-small;">
           <div>${dateString} ${timeString}</div>
-          <div> made by <a href="https://rkrocks47.github.io/HEALTHCARE-SYSTEM-FOR-INDIVIDUAL-.github.io/" target="_blank">PRAKRITI GUIDE</a> </div> 
+          <div> made by <a href="https://prakriti-app-xvis.onrender.com/" target="_blank">PRAKRITI GUIDE</a> </div> 
       </div>
       
       <p>____________________________________________________________________________________________</p>
