@@ -5,7 +5,6 @@ import joblib
 from joblib import dump , load
 from flask import Flask, request
 import pandas as pd
-from sklearn.neighbors import NearestNeighbors
 import json
 import math
 from rapidfuzz.distance import Levenshtein  #for getting nearest disease name from the disease names which are in dataset got these
