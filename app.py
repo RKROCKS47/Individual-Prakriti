@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 import json
 import math
-import Levenshtein #for getting nearest disease name from the disease names whihc are in dataset
+from rapidfuzz.distance import Levenshtein  #for getting nearest disease name from the disease names which are in dataset got these
 import requests #for medication for symptoms
 
 
