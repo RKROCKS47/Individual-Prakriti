@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request,jsonify
 import json
 import joblib
@@ -442,4 +443,4 @@ def get_live_location():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 10000)), debug=False)
