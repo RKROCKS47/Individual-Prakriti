@@ -90,7 +90,7 @@ function prevForm() {
   }
   
   if (currentFormIndex == 0) {
-    document.getElementById("backbtn").disabled = true;
+   document.getElementById("backbtn").disabled = true;
     document.getElementById("heads").style.display = "flex";
   }
   if (currentFormIndex == 3) {
