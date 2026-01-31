@@ -527,8 +527,7 @@ function sendSymptoms() {
             });
           } else {
             alert("select atleast 3 symptoms for better results");
-            document.getElementById("form4Container").display="none";
-            document.getElementById("form3Container").display="none";
+            document.getElementById("form4Container").display="none"; document.getElementById("form3Container").display="none";
             // showForm(1);
           }
         } else {
