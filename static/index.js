@@ -103,8 +103,7 @@ function prevForm() {
     document.getElementById("predict").style.display = "block";
     document.getElementById("medic").style.display = "block";
   }
-
-  document.getElementById("output").style.display = "none";
+ document.getElementById("output").style.display = "none";
   document.getElementById("results").style.display = "none";
   document.getElementById("buttonContainer").style.display = "none";
   document.getElementById("medications-container").style.display = "none";
