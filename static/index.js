@@ -9,7 +9,6 @@ for (var i = 0; i < buttons.length; i++) {
     }
   });
 }
-
 const checkbox = document.getElementById("t-c");
 const submitButton = document.getElementById("t-c-submit");
 const head = document.getElementById("head");
